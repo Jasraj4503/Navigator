@@ -1,0 +1,39 @@
+.navbar {
+    background: #222 !important;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.navbar-brand {
+    letter-spacing: 0.5px;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #e3e3e3 !important;
+}
+
+.btn-light {
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-light:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .btn-light {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

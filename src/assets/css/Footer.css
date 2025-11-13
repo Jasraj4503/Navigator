@@ -1,0 +1,33 @@
+.dev-footer {
+    background-color: #222;
+    /* VSCode dark background */
+    border-top: 1px solid #2a2a2a;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.dev-footer h5 {
+    color: #e4e4e4;
+    letter-spacing: 0.5px;
+}
+
+.dev-footer .social-icons .icon-link {
+    color: #b0b0b0;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.dev-footer .social-icons .icon-link:hover {
+    color: #00bcd4;
+    /* Subtle cyan hover like dev tools */
+    transform: translateY(-3px);
+}
+
+.dev-footer p {
+    color: #999;
+}
+
+@media (max-width: 768px) {
+    .dev-footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
